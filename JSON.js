@@ -304,6 +304,9 @@
  * cài nodejs
  * tạo folder add workspace
  * new terminal -> con thư mục json server
- * gõ npm -v -> npm init -> enter -> chọn yes -> npm install
+ * gõ npm -v -> npm init -> enter -> chọn yes -> npm install json-server -> enter
+ * tạo file db.json trong folder vừa tạo -> tạo fake data lưu trữ các thông tin vd: lưu trữ khóa học
+ * mở file packeage.jason -> cop lệnh "json-server --watch db.json" vào mục scripts/start
+ * gõ npm start -> nó sẽ trả về url json
  *
  */
