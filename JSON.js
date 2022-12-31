@@ -298,7 +298,7 @@
 //     console.log("Have a bug");
 //   });
 
-// JSON Server: API server =====================
+// JSON Server: API server (Fake) / Mock API =====================
 // https://github.com/typicode/json-server
 /**
  * cài nodejs
@@ -309,4 +309,23 @@
  * mở file packeage.jason -> cop lệnh "json-server --watch db.json" vào mục scripts/start
  * gõ npm start -> nó sẽ trả về url json
  *
+ */
+
+// var coursesApi = "http://localhost:3000/courses";
+
+// fetch(coursesApi)
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((courses) => {
+//     console.log(courses);
+//   });
+
+// postman =========
+// CRUD
+/**
+ * c: create
+ * r: read
+ * u: update
+ * d: delete
  */
