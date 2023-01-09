@@ -324,8 +324,8 @@
 // postman =========
 // CRUD
 /**
- * c: create
- * r: read
- * u: update
- * d: delete
+ * c: create -> post
+ * r: read -> get
+ * u: update -> put / patch
+ * d: delete -> delete
  */
